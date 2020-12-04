@@ -1,0 +1,34 @@
+/* -----------title project paragraph-------*/
+.title-project{
+    text-align:justify;
+    padding-left: 10px;
+    margin:10px;
+    color:  #00b3b3 ;
+  }
+  .paragraphstyle{
+    text-align: justify;
+    margin:10px;
+    padding-left: 10px;
+  }
+  .divided{
+    padding:50px;
+    margin: auto;
+    display: inline;
+  }
+   .colorlinkchanged a:hover{
+    color: tomato;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+  .title-project{
+    background-color: lightgray;
+    margin-left: 10px;
+    padding: 5px;
+  }
+  .alingment-img{
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 10%;
+  }
+

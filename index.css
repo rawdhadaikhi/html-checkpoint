@@ -1,0 +1,87 @@
+
+/* ---------------animation class-----------*/
+
+.hello-rawdha{
+  text-align: center;
+  font-size: 250%;
+}
+.hello-rawdha{
+  animation-name: balayage;
+  animation-duration: 5s;
+}
+
+/*---------- animation key frame-------------*/
+
+@keyframes balayage{
+  0%{
+    opacity: 0;
+    transform: translateX(0px);
+    
+  }
+  50%{
+    
+    transform: translateX(100px);
+    color:  #3131a7 ;
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+}
+#profil{
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+.paragraphstyle{
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.box1{
+  display: block;
+  max-width: 700;
+  padding:0;
+  margin:0;
+}
+.box2{
+  display: inline;
+  max-width: 700;
+  padding:0;
+  margin:0;
+}
+
+.skills-card{
+  margin: 5px;
+  padding:5px;
+  text-align: left;
+  font-size: 1.2rem;
+  color:  #00994d  ;
+}
+.box2 ol{
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 20px;
+}
+.box2 li{
+  display: inline;
+  border-radius: 10px;
+  background-color: lightgray;
+ 
+}
+.img-skills{
+  display: inline;
+  /*text-align: center;*/
+  padding:10px;
+
+}
+progress{
+  color: lightblue;
+  display: inline;
+  
+}
+

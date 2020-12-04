@@ -2,62 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
     <title>all about me</title>
 </head>
 <body>
     <header>
-
-        <h3>Portfolio</h3><br>
-        <nav>
+        <nav class="fixed">
             <ul>
-                <a href="index.html" target="_self">about</a>
-                <a href="project.html" target="_self">Projects</a>
-                <a href="contact.html" target="_self">Contact me</a>
+                <li><a href="index.html" target="_self" class="active">about</a></li>
+                <li><a href="project.html" target="_self">Projects</a></li>
+                <li><a href="contact.html" target="_self">Contact me</a></li>
             </ul><br><br>
            
         </nav> 
     </header>
-    
-    <section> 
-        <h1>Hey i'm raoudha daikhi here</h1><br><br>
-         <img src="\images\profil.jpg" alt="photo de profil" width="100">
-        <p>I am a software developer, I am looking for a new 
+    <section class="box1"> 
+        <h1 class="hello-rawdha">Hey i'm raoudha daikhi here</h1><br><br>
+         <img src="/images/profil.jpg" alt="photo de profil" width="200px" id="profil">
+        <p class="paragraphstyle">I am a software developer, I am looking for a new 
         oppurtunity, here you find my personal projects, as well as my skills,
          please contact me!</p><br><br>
 
-        <figure>
+         <h4 class="skills-card">my experties</h4>
+        <figure class="img-skills">
             <!-- <figcaption>my technical skills :</figcaption> -->
-            <h4>my soft skills</h4>
-            <br><br>
-            <img src="\images\html-5-icon.png" alt="a html icon" width="50px" >
-            <img src="\images\css-icon.jpg"  alt="a css icon" width="50px">
-            <img src="\images\js-icon.svg.png" alt="a javascript icon" width="50px" >
-            <img src="\images\bootstrap-icon.svg.png" alt="a bootstrap icon" width="50px" >
-            <img src="\images\react.png"  alt="a react icon" width="50px">
-            <img src="\images\nodejs.png" alt="a nodejs icon" width="50px">
-            <img src="\images\mongodb.png" alt="a mongodb icon" width="100px">
-            <img src="\images\git.png" alt="a git icon" width="100px" >
+            
+            <br>
+           <div>
+            <img src="/images/html-5-icon.png" alt="a html icon" width="50px" >
+            <progress min="0" max="500" value="100">100%</progress>
+           </div>
+           <div>
+            <img src="/images/css-icon.jpg"  alt="a css icon" width="50px">
+            <progress min="0" max="100" value="80">80%</progress>
+           </div>
+           <div>
+            <img src="/images/js-icon.svg.png" alt="a javascript icon" width="50px" >
+            <progress min="0" max="500" value="50">50%</progress>
+           </div>
+            <div>
+                <img src="/images/bootstrap-icon.svg.png" alt="a bootstrap icon" width="50px" >
+                <progress min="0" max="500" value="40">40%</progress>
+            </div>
+            <div>
+                <img src="/images/react.png"  alt="a react icon" width="50px">
+                <progress min="0" max="100" value="50">50%</progress>
+            </div>
+           <div>
+            <img src="/images/nodejs.png" alt="a nodejs icon" width="50px">
+            <progress min="0" max="100" value="20">20%</progress>
+           </div>
+           
+           <div>
+            <img src="/images/mongodb.png" alt="a mongodb icon" width="100px">
+            <progress min="0" max="500" value="60">60%</progress>
+
+           </div>
+            <div>
+                <img src="/images/git.png" alt="a git icon" width="100px" >
+                <progress min="0" max="500" value="40">40%</progress>
+
+            </div>
+            
             
         </figure>
         <br><br>
          
      </section>
-     <section>
-         <h4>my soft skills</h4>
-        <ul>
-            <li>creative</li>
-            <li>teamwork</li>
-            <li>ponctual</li>
-            <li>rigorous</li>
-        </ul> 
+     <section class="box2">
+         <h4 class="skills-card">my soft skills</h4>
+        <ol>
+            <li>creative</li><br>
+            <li>teamwork</li><br>
+            <li>ponctual</li><br>
+            <li>rigorous</li><br>
+        </ol> 
      </section>
      <br><br>
-     <footer>
+     <footer class="footerpage">
         <!-- internal link to go on the top of the page -->
-        <a href="#">Top of page</a>
+        <a href="#" id="linktop-page">Top of page</a>
         <br><br>
-         <p>written and coded by <i>rawdha daikhi</i></p>
+         <p class="copyright">written and coded by <i>rawdha daikhi</i></p>
      </footer>
 </body>
 </html>
